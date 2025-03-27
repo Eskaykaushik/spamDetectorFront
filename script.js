@@ -1,5 +1,5 @@
  
-const API_URL = "http://127.0.0.1:5000"; // Replace with your actual backend URL
+const API_URL = "https://backendserviceflask.onrender.com/"; // Replace with your actual backend URL
 
 async function checkSpam() {
     const emailText = document.getElementById("emailText").value.trim();
